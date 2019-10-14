@@ -32,7 +32,7 @@
        const { toggle, onSave } = this.props;
        return (
          <Modal isOpen={true} toggle={toggle}>
-           <ModalHeader toggle={toggle}> Todo Item </ModalHeader>
+           <ModalHeader toggle={toggle}> Form Item </ModalHeader>
            <ModalBody>
              <Form>
                <FormGroup>
@@ -42,7 +42,7 @@
                    name="title"
                    value={this.state.activeItem.title}
                    onChange={this.handleChange}
-                   placeholder="Enter Todo Title"
+                   placeholder="Enter Form Title"
                  />
                </FormGroup>
                <FormGroup>
@@ -52,7 +52,7 @@
                    name="description"
                    value={this.state.activeItem.description}
                    onChange={this.handleChange}
-                   placeholder="Enter Todo description"
+                   placeholder="Enter Form description"
                  />
                </FormGroup>
                <FormGroup check>
