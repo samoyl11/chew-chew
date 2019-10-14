@@ -20,7 +20,7 @@ import React, { Component } from "react";
       }
       refreshList = () => {
         axios
-          .get("http://localhost:8000/api/forms/")
+          .get("https://chew-chew.herokuapp.com/api/forms/")
           .then(res => this.setState({ formList: res.data }))
           .catch(err => console.log(err));
       };
@@ -91,17 +91,17 @@ import React, { Component } from "react";
         this.toggle();
         if (item.id) {
           axios
-            .put(`http://localhost:8000/api/forms/${item.id}/`, item)
+            .put(`https://chew-chew.herokuapp.com/api/forms/${item.id}/`, item)
             .then(res => this.refreshList());
           return;
         }
         axios
-          .post("http://localhost:8000/api/forms/", item)
+          .post("https://chew-chew.herokuapp.com/api/forms/", item)
           .then(res => this.refreshList());
       };
       handleDelete = item => {
         axios
-          .delete(`http://localhost:8000/api/forms/${item.id}`)
+          .delete(`https://chew-chew.herokuapp.com/api/forms/${item.id}`)
           .then(res => this.refreshList());
       };
       createItem = () => {
