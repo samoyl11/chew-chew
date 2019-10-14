@@ -8,10 +8,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #282c34;
 }
-.todo-title {
+.form-title {
   cursor: pointer;
 }
-.completed-todo {
+.completed-form {
   text-decoration: line-through;
 }
 .tab-list > span {
