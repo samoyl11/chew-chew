@@ -53,7 +53,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ORIGIN_WHITELIST = (
-    'http://localhost:3000',
+    'https://chew-chew-front-temp.herokuapp.com',
 )
 
 ROOT_URLCONF = 'backend.urls'
