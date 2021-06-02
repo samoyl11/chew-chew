@@ -62,7 +62,7 @@ tensorboard-easy==0.2.3
 torch==1.1.0.post2
 torchvision==0.3.0
 tqdm==4.32.2
-urllib3==1.22
+urllib3==1.26.5
 virtualenv==16.7.5
 virtualenv-clone==0.5.3
 Werkzeug==0.16.0
