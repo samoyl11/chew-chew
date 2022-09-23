@@ -38,7 +38,7 @@ pdp==0.3.0
 Pillow==6.0.0
 pipenv==2018.11.26
 plotly==4.1.1
-protobuf==3.8.0
+protobuf==3.18.3
 pycosat==0.6.3
 pycparser==2.18
 pydicom==1.2.2
